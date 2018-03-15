@@ -31,6 +31,7 @@ pnpmCmds['install-test'] = pnpmCmds.installTest
 
 const supportedCmds = new Set([
   'add',
+  'ci',
   'install',
   'uninstall',
   'update',

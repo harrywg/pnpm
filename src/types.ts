@@ -34,6 +34,8 @@ export interface PnpmOptions {
   registry?: string,
   optional?: boolean,
   unsafePerm?: boolean,
+  sideEffectsCache?: boolean,
+  sideEffectsCacheReadonly?: boolean,
 
   // proxy
   proxy?: string,
@@ -46,7 +48,7 @@ export interface PnpmOptions {
   ca?: string,
   strictSsl?: boolean,
 
-  userAgent?: string,
+  userAgent: string,
   tag?: string,
 
   metaCache?: Map<string, object>,
@@ -72,7 +74,7 @@ export interface PnpmOptions {
   // cannot be specified via configs
   update?: boolean,
   reporter?: (logObj: LogBase) => void,
-  packageManager?: {
+  packageManager: {
     name: string,
     version: string,
   },

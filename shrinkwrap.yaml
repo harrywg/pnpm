@@ -2,6 +2,7 @@ dependencies:
   '@pnpm/config': 0.2.2
   '@pnpm/default-fetcher': 0.4.0
   '@pnpm/default-resolver': 0.1.4
+  '@pnpm/headless': 'link:../headless'
   '@pnpm/logger': 1.0.1
   '@pnpm/outdated': 0.2.10
   '@pnpm/server': 0.9.0

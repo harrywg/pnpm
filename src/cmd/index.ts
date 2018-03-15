@@ -1,3 +1,4 @@
+import ci from './ci'
 import dislink from './dislink'
 import help from './help'
 import install from './install'
@@ -16,6 +17,7 @@ import uninstall from './uninstall'
 import update from './update'
 
 export {
+  ci,
   install,
   installTest,
   link,
